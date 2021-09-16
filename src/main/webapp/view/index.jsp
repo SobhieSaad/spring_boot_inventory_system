@@ -198,6 +198,10 @@
                                         <label for="phone">Phone: </label>
                                         <input readonly="1" name="phone" type="text" class="form-control" id="phone" value="{{clickedCustomer.phone}}">
                                     </div>
+                                    <div class="form-group">
+                                        <label for="address">Address: </label>
+                                        <input readonly="1" name="address" type="text" class="form-control" id="address" value="{{clickedCustomer.address}}">
+                                    </div>
                                 </div>
                             </div>
                         </div>
